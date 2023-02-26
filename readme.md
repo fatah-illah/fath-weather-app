@@ -22,9 +22,9 @@ Rename **.env.example** to **.env** and edit the values
 
 If the public API URL is **https://api.openweathermap.org/data/2.5/weather?q={city}&appid={APIkey}**
 
-- API_BASE_URL = "https://api.openweathermap.org/data/2.5/weather"
-- API_KEY_NAME = "appid"
-- API_KEY_VALUE = "This is YOUR API KEY"
+- API_BASE_URL="https://api.openweathermap.org/data/2.5/weather"
+- API_KEY_NAME="appid"
+- API_KEY_VALUE="This is YOUR API KEY"
 
 You can append any additional query parameters as necessary when accessing the /api endpoint, such as https://yourdomain/api?q=detroit, without having to include your API key on the client.
 
